@@ -1,0 +1,12 @@
+Files
+    train_dataset.csv --> Its for Model Building
+    test_dataset.csv --> Its for ModelTesting
+    train.ipynb --> Notebook file for Modelling
+    predict.py --> ML Web App
+    
+
+Steps
+1. Run train.ipynb notebook file for Model building and to save the model in pickle format
+        It will generate 2 output files (svc_model.pkl and lr_model.pkl)
+2. Run the following in jupter terminal or in command prompt
+        streamlit run predict.py
